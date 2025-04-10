@@ -1,6 +1,5 @@
 @import url('/bootstrap/bootstrap.min.css');
 @import url('/bootstrap/font/bootstrap-icons.css');
-@import url('/fonts/custom-fonts.css');
 
 :root{
     --primary-red: #BA1514;
@@ -10,6 +9,7 @@
 
 .fancy-font {
     font-family: 'Cinzel', serif;
+    src: url('/fonts/Cinzel-Regular.ttf') format('truetype');
     color: var(--primary-red);
 }
 
